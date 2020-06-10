@@ -1,0 +1,9 @@
+Which of the following is the correct syntax to output a message? 
+
+a) System.println("Hello, world!");
+b) System.println(Hello, world!);
+c) System.out.println("Hello, world!");
+d) System.println.out('Hello, world!');
+e) Out.system.println"(Hello, world!)"; 
+
+correct answer: c)
