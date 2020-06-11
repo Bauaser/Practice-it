@@ -1,0 +1,9 @@
+Which of the following method headers uses the correct syntax?
+
+  a)  public void static example() {
+  b)  public static example void[] {
+  c)  public void static example{} (
+  d)  public static example() {
+  e)  public static void example() {
+
+Correct answer e)
