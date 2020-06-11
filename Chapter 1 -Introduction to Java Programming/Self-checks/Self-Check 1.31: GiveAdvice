@@ -1,0 +1,38 @@
+The following program is legal under Java's syntax rules, but it is difficult to read because of its layout and lack of comments.
+Reformat it using the rules given in Chapter 1, and add a comment header at the top of the program.
+(Practice-It isn't really able to check that you satisfied the requirements of this question.
+You will receive credit as long as you supply a reasonable amount of indentation and add two lines of // comments.)
+
+public
+class GiveAdvice{ public static
+void main (String[ ]args){ System.out.println (
+
+"Programs can be easy or");  System.out.println(
+  "difficult to read, depending"
+);  System.out.println("upon their format.")
+          ;System.out.println();System.out.println(
+"Everyone, including yourself,");
+System.out.println
+("will be happier if you choose");
+        System.out.println("to format your programs."
+);    }
+   }
+
+My answer:
+//In all document sout stands for "System.out.println" or "System.out.print".
+//I've added a lot of comments to show what was done whith original code.
+//... Unfortunatly it resulted with another hard to read mess... 
+//until you put it in some IDE
+
+public class GiveAdvice{ 
+    public static void main (String[]args){ 
+    System.out.println ("Programs can be easy or"); //started sout command in new line.
+// removed this empty line
+  System.out.println( "difficult to read, depending"); // linked text with sout it belongs to, and write new sout in new line
+  System.out.println("upon their format."); //started sout command in new line. 
+  System.out.println(); //started sout command in new line.
+  System.out.println("Everyone, including yourself,"); // linked with sout it belongs to
+System.out.println("will be happier if you choose"); // linked with sout it belongs to
+        System.out.println("to format your programs.");   
+        } // moved ");" to the end of previous line
+   }
