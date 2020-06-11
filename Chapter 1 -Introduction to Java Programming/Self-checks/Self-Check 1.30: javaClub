@@ -1,0 +1,36 @@
+Consider the following program, saved into a file named Example.java:
+  
+  public class Example {
+      public static void displayRule() {
+         System.out.println("The first rule ");
+         System.out.println("of Java Club is,");
+          System.out.println();
+          System.out.println("you do not talk about Java Club.");
+     }
+      public static void main(String[] args) {
+         System.out.println("The rules of Java Club.");
+         displayRule();
+         displayRule();
+   }
+}
+
+What would happen if each of the following changes were made to the Example program? Treat each change independently of the others.
+    If there would be no change to the program, choose "nothing".
+    If it would cause the program not to compile, or an error when attempting to run it, choose "error".
+    If it would change the program's output, choose "output".
+
+a) Change line 1 to: public class Demonstration 	
+b) Change line 9 to: public static void MAIN(String[] args) { 	
+c) Insert a new line after line 11 that reads: System.out.println(); 	
+d) Change line 2 to: public static void printMessage() { 	
+e) Change line 2 to: public static void showMessage() {
+and change lines 11 and 12 to: showMessage(); 	
+f) Replace lines 3-4 with: System.out.println("The first rule of Java Club is,");
+
+Answers:
+a) error
+b) error
+c) output
+d) error
+e) nothing
+f) output
