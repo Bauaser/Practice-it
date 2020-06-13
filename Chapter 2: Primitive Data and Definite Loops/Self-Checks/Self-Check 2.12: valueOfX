@@ -1,0 +1,16 @@
+ What is the value of variable x after the following code executes?
+
+int x = 3;
+x = x + 2;
+x = x + x;
+
+a) 10
+b) 5
+c) 12
+d) 3
+e) 7 
+
+answer:
+a)
+
+
