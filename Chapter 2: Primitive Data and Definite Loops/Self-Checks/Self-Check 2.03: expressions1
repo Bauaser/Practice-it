@@ -1,0 +1,46 @@
+Trace the evaluation of the following expressions, and give their resulting values.
+Make sure to give a value of the appropriate type (such as including a .0 at the end of a double).
+
+a)  2 + 3 * 4 - 6 	
+b)  14 / 7 * 2 + 30 / 5 + 1 	
+c)  (12 + 3) / 4 * 2 	
+d)  (238 % 10 + 3) % 7 	
+e)  (18 - 7) * (43 % 10) 	
+f)  2 + 19 % 5 - (11 * (5 / 2)) 	
+g)  813 % 100 / 3 + 2.4 	
+h)  26 % 10 % 4 * 3 	
+i)  22 + 4 * 2 	
+j)  23 % 8 % 3 	
+k)  12 - 2 - 3 	
+l)  6/2 + 7/3 	
+m)  6 * 7 % 4 	
+n)  3 * 4 + 2 * 3 	
+o)  177 % 100 % 10 / 2 	
+p)  89 % (5 + 5) % 5 	
+q)  392 / 10 % 10 / 2 	
+r)  8 * 2 - 7 / 4 	
+s)  37 % 20 % 3 * 4 	
+t)  17 % 10 / 4 	
+
+
+Answers:
+a) 8
+b) 11
+c) 6 
+d) 4
+e) 33
+f) -16
+g) 6.4
+h) 6
+i) 30
+j) 1
+k) 7
+l) 5
+m) 2
+n) 18
+o) 3
+p) 4
+q) 4
+r) 15
+s) 8
+t) 1
