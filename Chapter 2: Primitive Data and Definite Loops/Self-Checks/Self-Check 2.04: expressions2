@@ -1,0 +1,37 @@
+Trace the evaluation of the following expressions, and give their resulting values. 
+Make sure to give a value of the appropriate type (such as including a .0 at the end of a double).
+
+a)  4.0 / 2 * 9 / 2 	
+b)  2.5 * 2 + 8 / 5.0 + 10 / 3 	
+c)  12 / 7 * 4.4 * 2 / 4 	
+d)  4 * 3 / 8 + 2.5 * 2 	
+e)  (5 * 7.0 / 2 - 2.5) / 5 * 2 	
+f)  41 % 7 * 3 / 5 + 5 / 2 * 2.5 	
+g)  10.0 / 2/4 	
+h)  8 / 5 + 13 / 2 / 3.0 	
+i)  (2.5 + 3.5) / 2 	
+j)  9 / 4 * 2.0 - 5/4 	
+k)  9 / 2.0 + 7 / 3 - 3.0 / 2 	
+l)  813 % 100 / 3 + 2.4 	
+m)  27 / 2 / 2.0 * (4.3 + 1.7) - 8 / 3 	
+n)  53 / 5 / (0.6 + 1.4) / 2 + 13 / 2 	
+o)  2 * 3 / 4 * 2 / 4.0 + 4.5 - 1 	
+p)  89 % 10 / 4 * 2.0 / 5 + (1.5 + 1.0 / 2) * 2
+
+Answers:
+a) 9.0
+b) 9.6
+c) 2.2
+d) 6.0
+e) 6.0
+f) 8.0
+g) 1.25
+h) 3.0
+i) 3.0
+j) 3.0
+k) 5.0
+l) 6.4
+m) 37.0
+n) 8.5
+o) 4.0
+p) 4.8
