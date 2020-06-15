@@ -1,0 +1,29 @@
+ What output is produced by the following program?
+
+public class MysterySoda {
+    public static void main(String[] args) {
+        String soda = "coke";
+        String pop = "pepsi";
+        String coke = "pop";
+        String pepsi = "soda";
+        String say = pop;
+        carbonated(coke, soda, pop);
+        carbonated(pop, pepsi, pepsi);
+        carbonated("pop", pop, "koolaid");
+        carbonated(say, "say", pop);
+    }
+    public static void carbonated(String coke, String soda, String pop) {
+        System.out.println("say " + soda + " not " + pop + " or " + coke);
+    }
+}
+
+a)  carbonated(coke, soda, pop); 	
+b)  carbonated(pop, pepsi, pepsi); 	
+c)  carbonated("pop", pop, "koolaid"); 	
+d)  carbonated(say, "say", pop);
+
+output:
+a)  say coke not pepsi or pop
+b)  say soda not soda or pepsi
+c)  say pepsi not koolaid or pop
+d)  say say not pepsi or pepsi
