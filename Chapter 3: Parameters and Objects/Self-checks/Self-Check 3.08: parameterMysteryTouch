@@ -1,0 +1,36 @@
+ What output is produced by the following program?
+
+public class MysteryTouch {
+    public static void main(String[] args) { 
+        String head = "shoulders"; 
+        String knees = "toes"; 
+        String elbow = "head"; 
+        String eye = "eyes and ears"; 
+        String ear = "eye"; 
+        touch(ear, elbow); 
+        touch(elbow, ear); 
+        touch(head, "elbow"); 
+        touch(eye, eye); 
+        touch(knees, "Toes"); 
+        touch(head, "knees " + knees); 
+    }
+    public static void touch(String elbow, String ear) { 
+        System.out.println("touch your " + elbow + " to your " + ear); 
+    }
+}
+
+
+a)  touch(ear, elbow); 	
+b)  touch(elbow, ear); 	
+c)  touch(head, "elbow"); 	
+d)  touch(eye, eye); 	
+e)  touch(knees, "Toes"); 	
+f)  touch(head, "knees " + knees);
+
+Answers:
+a)  touch your eye to your head
+b)  touch your head to your eye
+c)  touch your shoulders to your elbow
+d)  touch your eyes and ears to your eyes and ears
+e)  touch your toes to your Toes
+f)  touch your shoulders to your knees toes
