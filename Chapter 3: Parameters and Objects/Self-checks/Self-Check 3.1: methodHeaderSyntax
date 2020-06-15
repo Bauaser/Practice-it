@@ -1,0 +1,10 @@
+Which of the following is the correct syntax for a method header with parameters?
+
+a)    public static void example(int x, int y) {
+b)    public static void example(int x,y) {
+c)    public static void example(x, y) {
+d)    public static void example(x: int, y: int) {
+e)    public static (int x, int y) example() {
+
+Answer:
+a)
