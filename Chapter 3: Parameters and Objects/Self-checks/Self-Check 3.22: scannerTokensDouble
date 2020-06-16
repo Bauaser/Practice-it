@@ -1,0 +1,26 @@
+ Given the following code fragment, describe what will happen when the user types each of the following values. 
+ If the code will read the value successfully, describe the value that will be stored in the variable money. 
+ If it will not, write exception . (Make sure to write a value of the proper type, such as 12.0 rather than 12 for a double.)
+
+Scanner console = new Scanner(System.in);
+System.out.print("How much money do you have? ");
+double money = console.nextDouble();
+
+ a)   34.50 	
+ b)   6 	
+ c)   $25.00 	
+ d)   million 	
+ e)   100*5 	
+ f)   600x000 	
+ g)   none 	
+ h)   645
+ 
+ Answers:
+ a) 34.5
+ b) 6.0
+ c) exception
+ d) exception
+ e) exception
+ f) exception
+ g) exception
+ h) 645.0
