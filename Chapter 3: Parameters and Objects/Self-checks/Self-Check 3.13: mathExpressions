@@ -1,0 +1,36 @@
+Evaluate the following expressions.
+Make sure to give a value of the appropriate type (such as including a decimal point in a double).
+
+a)    Math.abs(-1.6) 	
+b)    Math.abs(2 + -4) 	
+c)    Math.pow(6, 2) 	
+d)    Math.pow(5 / 2, 6) 	
+e)    Math.ceil(9.1) 	
+f)    Math.ceil(115.8) 	
+g)    Math.max(7, 4) 	
+h)    Math.min(8, 3 + 2) 	
+i)    Math.min(-2, -5) 	
+j)    Math.sqrt(64) 	
+k)    Math.sqrt(76 + 45) 	
+l)    100 + Math.log10(100) 	
+m)    13 + Math.abs(-7) - Math.pow(2, 3) + 5 	
+n)    Math.sqrt(16) * Math.max(Math.abs(-5), Math.abs(-3)) 	
+o)    7 - 2 + Math.log10(1000) + Math.log(Math.pow(Math.E, 5)) 	
+p)    Math.max(18 - 5 + Math.random(), Math.ceil(4.6 * 3))
+
+a)  1.6
+b)  2
+c)  36.0
+d)  64.0
+e)  10.0
+f)  116.0
+g)  7
+h)  5
+i)  -5
+j)  8.0
+k)  11.0
+l)  102.0
+m)  17.0
+n)  20.0
+o)  13.0
+p)  14.0
