@@ -1,0 +1,33 @@
+Assuming that the following variables have been declared,
+
+//       index 0123456789012345
+String str1 = "Frodo Baggins";
+String str2 = "Gandalf the GRAY";
+
+Evaluate the following expressions. 
+Make sure to give a value of the appropriate type (such as including quotes around a String or apostrophes around a char).
+
+a)  str1.length() 	
+b)  str1.charAt(7) 	
+c)  str2.charAt(0) 	
+d) str1.indexOf("o") 	
+e)  str2.toUpperCase() 	
+f)  str1.toLowerCase().indexOf("B") 	
+g)  str1.substring(4) 	
+h)  str2.substring(3, 14) 	
+i)  str2.replace("a", "oo") 	
+j)  str2.replace("gray", "white") 	
+k)  "str1".replace("r", "range")
+
+Answers:
+a)  13
+b)  'a'
+c)  'G'
+d)  2
+e)  "GANDALF THE GRAY"
+f)  -1
+g)  "o Baggins"
+h)  "dalf the GR"
+i)  "Goondoolf the GRAY"
+j)  "Gandalf the GRAY"
+k)  "strange1"
