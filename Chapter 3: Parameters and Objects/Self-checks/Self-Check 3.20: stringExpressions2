@@ -1,0 +1,39 @@
+Assuming that the following variables have been declared,
+
+String str1 = "Q.E.D.";
+String str2 = "Arcturan Megadonkey";
+String str3 = "Sirius Cybernetics Corporation";
+
+Evaluate the following expressions. 
+Make sure to give a value of the appropriate type (such as including quotes around a String).
+
+a)  str1.length() 	
+b)  str2.length() 	
+c)  str1.toLowerCase() 	
+d)  str2.toUpperCase() 	
+e)  str1.substring(2, 4) 	
+f)  str2.substring(10, 14) 	
+g)  str1.indexOf("D") 	
+h)  str1.indexOf(".") 	
+i)  str2.indexOf("donkey") 	
+j)  str3.indexOf("X") 	
+k)  str2 + str3.charAt(17) 	
+l)  str3.substring(9, str3.indexOf("e")) 	
+m)  str3.substring(7, 12) 	
+n)  str2.toLowerCase().substring(9, 13) + str3.substring(18, str3.length() - 7)
+
+Answers:
+a)  6
+b)  19
+c)  "q.e.d."
+d)  "ARCTURAN MEGADONKEY"
+e)  "E."
+f)  "egad"
+g)  4
+h)  1
+i)  13
+j)  -1
+k)  "Arcturan Megadonkeys"
+l)  "b"
+m)  "Cyber"
+n)  "mega Corp"
