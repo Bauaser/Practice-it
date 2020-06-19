@@ -1,0 +1,28 @@
+Consider the following method.
+
+public static void ifElseMystery1(int x, int y) {
+
+    int z = 4;
+    if (z <= x) { 
+        z = x + 1; 
+    } else { 
+        z = z + 9; 
+    } 
+    if (z <= y) { 
+        y++; 
+    } 
+    System.out.println(z + " " + y); 
+}
+
+For each call below, indicate what output is produced.
+
+a)    ifElseMystery1(3, 20); 	
+b)    ifElseMystery1(4, 5); 	
+c)    ifElseMystery1(5, 5); 	
+d)    ifElseMystery1(6, 10);
+
+Answers:
+a)    13 21
+b)    5 6
+c)    6 5
+d)    7 11
