@@ -1,0 +1,35 @@
+Translate each of the following English statements into logical tests that could be used in an if/else statement. 
+Write the appropriate logical test for each statement below. Assume that three int variables, x, y, and z, have already been declared.
+
+(Note: This problem is currently not very well implemented in Practice-It. 
+Right now our system is just checking whether your answer exactly matches our expected answer, but some other correct answers might be 
+marked as incorrect even though they would work. The answer in point i) in my case is marked by practice it as incorrect, and I've spent 
+many hours digging in internet for working answer [so I could have all problems in chapter marked as solved] but most common answer was 
+the same as mine.)
+
+a. z is odd. 	
+b. z is not greater than y's square root. 	
+c. y is positive. 	
+d. Either x or y is even, and the other is odd. (Hint: Don't use && or ||.) 	
+e. y is a multiple of z. 	
+f. z is not zero. 	
+g. y is greater in magnitude than z. 	
+h. x and z are of opposite signs. 	
+i. y is a nonnegative one-digit number. 	
+j. z is nonnegative. 	
+k. x is even 	
+l. x is closer in value to y than z is.
+
+Answers:
+a.  z % 2 == 1
+b.  z <= Math.sqrt(y)
+c.  y > 0
+d.  x % 2 != y % 2
+e.  y % z == 0
+f.  z != 0
+g.  Math.abs(y) > Math.abs(z)
+h.  (x >= 0) == (z < 0)
+i.  y == y % 10 
+j.  z >= 0
+k.  x % 2 == 0
+l.  Math.abs(x - y) < Math.abs(z - y)
