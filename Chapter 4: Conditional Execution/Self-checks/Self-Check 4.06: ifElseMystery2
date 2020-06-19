@@ -1,0 +1,26 @@
+Consider the following method.
+
+public static void ifElseMystery2(int a, int b) {
+    if (a * 2 < b) {
+        a = a * 3;
+    }
+    if (b < a) {
+        b++;
+    } else {
+        a--;
+    }
+    System.out.println(a + " " + b);
+}
+
+For each call below, indicate what output is produced.
+
+a)    ifElseMystery2(10, 2); 	
+b)    ifElseMystery2(3, 8); 	
+c)    ifElseMystery2(4, 4); 	
+d)    ifElseMystery2(10, 30);
+
+Outputs:
+a)    10 3
+b)    9 9
+c)    3 4
+d)    29 30
