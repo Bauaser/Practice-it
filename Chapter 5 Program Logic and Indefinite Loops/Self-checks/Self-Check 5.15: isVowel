@@ -1,0 +1,14 @@
+Write a method named isVowel that returns whether a String is a vowel (a single-letter string containing a, e, i, o, or u, case-insensitively). 
+
+method:
+public static boolean isVowel(String word){ 
+  if (word.length()==1){ 
+      for(int i=0;i<word.length();i++){
+    char vowels=word.charAt(i);
+        if(vowels== 'a'|| vowels =='e' || vowels=='i'|| vowels == 'o' ||  vowels == 'u'|| vowels== 'A'|| vowels =='E' || vowels=='I'|| vowels == 'O' ||  vowels == 'U' ){
+           return true;
+        }  
+   }
+}
+    return false;
+}
