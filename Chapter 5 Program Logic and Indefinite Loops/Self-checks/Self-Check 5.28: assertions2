@@ -1,0 +1,31 @@
+For each of the five points labeled by comments, identify each of the assertions in the table below as either being always true, never true, 
+or sometimes true / sometimes false.
+
+public static int mystery(int n) {
+    Random r = new Random();
+    int a = r.nextInt(3) + 1;
+    int b = 2;
+    // Point A
+    while (n > b) {
+        // Point B
+        b = b + a;
+        if (a > 1) {
+            n--;
+            // Point C
+            a = r.nextInt(b) + 1;
+        } else {
+            a = b + 1;
+            // Point D
+        }
+    }
+    // Point E
+    return n;
+}
+Fill in each box of the the table below with ALWAYS, NEVER or SOMETIMES.
+
+Point     	n > b 	     a > 1 	    b > a
+Point A 	SOMETIMES 	SOMETIMES 	SOMETIMES
+Point B   ALWAYS    	SOMETIMES 	SOMETIMES
+Point C 	SOMETIMES 	ALWAYS 	ALWAYS
+Point D 	SOMETIMES 	ALWAYS 	NEVER
+Point E 	NEVER 	    SOMETIMES 	SOMETIMES
