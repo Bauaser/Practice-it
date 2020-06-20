@@ -1,0 +1,35 @@
+Given the following variable declarations:
+
+int x = 27;
+int y = -1;
+int z = 32;
+boolean b = false;
+
+What is the value of each of the following boolean expressions?
+
+a)    !b 	
+b)    b || true 	
+c)    (x > y) && (y > z) 	
+d)    (x == y) || (x <= z) 	
+e)    !(x % 2 == 0) 	
+f)    (x % 2 != 0) && b 	
+g)    b && !b 	
+h)    b || !b 	
+i)    (x < y) == b 	
+j)    !(x / 2 == 13) || b || (z * 3 == 96) 	
+k)    (z < x) == false 	
+l)    !((x > 0) && (y < 0)) 	
+
+Values:
+a)  true
+b)  true
+c)  false
+d)  true
+e)  true
+f)  false
+g)  false
+h)  true
+i)  true
+j)  true
+k)  true
+l)  false
