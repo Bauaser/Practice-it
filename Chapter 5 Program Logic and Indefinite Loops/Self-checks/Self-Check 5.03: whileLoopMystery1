@@ -1,0 +1,28 @@
+
+
+Given the following method:
+
+public static void mystery(int x) {
+    int y = 1;
+    int z = 0;
+    while (2 * y <= x) {
+        y = y * 2;
+        z++;
+    }
+    System.out.println(y + " " + z);
+}
+
+Write the output of each of the following calls.
+
+a)   mystery(1); 	
+b)   mystery(6); 	
+c)   mystery(19); 	
+d)   mystery(39); 	
+e)   mystery(74);
+
+outputs:
+a)  1 0
+b)  4 2
+c)  16 4
+d)  32 5
+e)  64 6
