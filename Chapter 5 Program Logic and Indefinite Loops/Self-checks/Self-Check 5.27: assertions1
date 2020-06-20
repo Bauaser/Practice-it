@@ -1,0 +1,28 @@
+For each of the five points labeled by comments, identify each of the assertions in the table below as either being always true, never true, 
+or sometimes true / sometimes false. You may assume that no int values overflow their valid ranges.
+
+public static int mystery(Scanner console, int x) {
+    int y = console.nextInt();
+    int count = 0;
+    // Point A
+    while (y < x) {
+        // Point B
+        if (y == 0) {
+            count++;
+            // Point C
+        }
+        y = console.nextInt();
+        // Point D
+    }
+    // Point E
+    return count;
+}
+
+Fill in each box of the the table below with ALWAYS, NEVER or SOMETIMES.
+
+Point   	y < x 	      y == 0 	  count > 0
+Point A 	SOMETIMES 	SOMETIMES 	NEVER
+Point B   ALWAYS 	    SOMETIMES 	SOMETIMES
+Point C 	ALWAYS      ALWAYS    	ALWAYS
+Point D 	SOMETIMES 	SOMETIMES 	SOMETIMES
+Point E 	NEVER 	    SOMETIMES 	SOMETIMES
