@@ -1,0 +1,27 @@
+Given the following method:
+
+public static int mystery(int x, int y) {
+    while (x != 0 && y != 0) {
+        if (x < y) {
+            y = y - x;
+        } else {
+            x = x - y;
+        }
+    }
+    return x + y;
+}
+
+Write the value returned by each of the following calls.
+
+a)  mystery(3, 3) 	
+b)  mystery(5, 3) 	
+c)  mystery(2, 6) 	
+d)  mystery(12, 18) 	
+e)  mystery(30, 75) 	
+
+values:
+a)  3
+b)  1
+c)  2
+d)  6
+e)  15
