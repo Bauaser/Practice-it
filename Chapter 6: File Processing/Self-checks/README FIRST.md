@@ -1,4 +1,4 @@
-These are self-checks from Practice-it University of Washington's introductory Java courses Chapter 5.
+These are self-checks from Practice-it University of Washington's introductory Java courses Chapter 6.
 
 Those self-checks are mostly theoretical questions, or "correct code" problems.
 
