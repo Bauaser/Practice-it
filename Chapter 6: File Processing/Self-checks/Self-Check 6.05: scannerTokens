@@ -1,0 +1,12 @@
+welcome...to the matrix.
+
+Given this line of input, what tokens does a Scanner break the line apart into? 
+
+a)    "welcome", "to", "the", "matrix"
+b)    "welcome...to the matrix."
+c)    "welcome...", "to", "the matrix."
+d)    "welcome", "to the matrix"
+e)    "welcome...to", "the", "matrix." 
+
+Correct answer:
+d)
