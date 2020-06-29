@@ -1,0 +1,32 @@
+The following input file contains 17 total tokens that could be read by a Scanner. What are they?
+
+Hello there,how are you?
+I am "very well", thank you.
+12 34 5.67 (8 + 9) "10"
+
+(Be careful about spacing; use exactly the spacing shown, when it is relevant to consider spacing in your answer. Write the tokens without quotation marks around them, unless there is an actual quotation mark in the input data.) How many of the tokens could be read as an integer, as a real number, and as a string?
+
+
+Answers: 
+number      token       type
+1            Hello     	(string)
+2            there,how 	(string)
+3            are	        (string)
+4            you?	      (string)
+5            I	          (string)
+6            am	        (string)
+7            "very	      (string)
+8            well",    	(string)
+9            thank	      (string)
+10           you.	      (string)
+11           12	        (integer, real number, string)
+12           34	        (integer, real number, string)
+13           5.67	      (real number, string)
+14          (8	        (string)
+15           +	          (string)
+16          9)	        (string)
+17          "10"         (string)
+
+# of tokens that can be read as an integer      	2
+# of tokens that can be read as a real number   	3
+# of tokens that can be read as a string          17
