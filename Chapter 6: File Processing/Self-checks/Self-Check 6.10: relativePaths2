@@ -1,0 +1,33 @@
+Answer the following questions about a Java program located on a Linux machine in the folder /home/amanda/Documents/hw6 :
+
+a. What are the legal ways you can refer to the file /home/amanda/Documents/hw6/names.txt?
+
+1.    "/names.txt"
+2.    "/home/amanda/Documents/hw6/names.txt"
+3.    "/home/names.txt"
+4.    "names.txt"
+5.    "hw6/names.txt"
+
+
+b. What are the legal ways you can refer to the file /home/amanda/Documents/hw6/data/numbers.txt?
+
+1.   "/home/amanda/Documents/hw6/data/numbers.txt"
+2.   "C:/numbers.txt"
+3.  "Data/Numbers.TXT"
+4.   "data/numbers.txt"
+5.   "/data/numbers.dat"
+
+
+c. What are the legal ways you can refer to the file /home/amanda/download/saved.html?
+
+1.  "/home/amanda/download/saved.html"
+2.  "saved.html"
+3.  "//download/saved.html"
+4.  "http://www.google.com/saved.html"
+5.  "amanda/saved.html"
+
+
+Answers:
+A - 2 & 4
+B - 1 & 4
+C - 1
