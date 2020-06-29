@@ -1,0 +1,9 @@
+How can we read data from a file in Java?
+
+a)    Using a Scanner in conjunction with a File object.
+b)    By using object-oriented programming (OOP).
+c)    The method System.file.readln method is the counterpoint to System.out.println and allows us to read files.
+d)    Using the System.out.println command.
+e)    All data on the computer is in binary, so the data can be read one bit at a time using the Bit data type.
+
+Correct answer: a)
