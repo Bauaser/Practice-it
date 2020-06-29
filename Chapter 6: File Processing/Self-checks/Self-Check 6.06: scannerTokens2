@@ -1,0 +1,13 @@
+in fourteen-hundred 92
+columbus sailed the ocean blue :)
+
+Given these lines of input, what tokens does a Scanner break the line apart into?
+
+a)    "in", "fourteen-hundred", "92"
+b)    "in fourteen-hundred 92", "columbus sailed the ocean blue :)"
+c)   "in", "fourteen-hundred", "92", "columbus", "sailed", "the", "ocean", "blue", ":)"
+d)    "in", "fourteen-hundred", "92\ncolumbus", "sailed", "the", "ocean", "blue :)"
+e)    "in", "fourteen", "hundred", "92", "columbus", "sailed", "the", "ocean", "blue"
+
+Correct answer:
+c)
