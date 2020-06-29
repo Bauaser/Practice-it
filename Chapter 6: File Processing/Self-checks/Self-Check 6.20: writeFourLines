@@ -1,0 +1,14 @@
+Write code to print the following four lines of text into a file named message.txt, in the same directory as your program. Notice that the third line is blank.
+
+Testing,
+1, 2, 3.
+
+This is my output file.
+
+Code:
+
+PrintStream out = new PrintStream(new File("message.txt"));
+out.println("Testing,");
+out.println("1, 2, 3.");
+out.println();
+out.println("This is my output file.");
