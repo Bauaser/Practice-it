@@ -1,0 +1,10 @@
+Which of the following is the correct syntax to declare a Scanner to read the file example.txt in the current directory?
+
+a)    File input = new Scanner("/example.txt");
+b)    Scanner input = new Scanner("C:/example.txt");
+c)    Scanner input = new File("\\example.txt");
+d)    Scanner input = new Scanner(new File("example.txt"));
+e)    Scanner input = new Scanner("C:\example.txt");
+
+Correct answer:
+d)
