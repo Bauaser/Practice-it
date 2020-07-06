@@ -25,3 +25,15 @@
 //nation
 
 //Each word is to appear on the same line in output as it appears in the file. Notice that lines can be blank.
+
+public void collapseSpaces(Scanner sc) {
+    while(sc.hasNextLine()) {
+        String line = sc.nextLine();
+        Scanner linesc = new Scanner(line);
+        
+        while(linesc.hasNext())
+            System.out.print(linesc.next() + " ");
+        
+        System.out.println();
+    }
+}
